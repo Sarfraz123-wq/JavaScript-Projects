@@ -1,0 +1,36 @@
+.container{
+    height: 100vh;
+    background-image: url('./Images/bground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container{
+    height: 50vh;
+    background-image: url('./Images/bg-0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: 1px solid green;
+    width: 70%;
+}
+.btn{
+    position: relative;
+    font-size: 20px;
+    background-color: rgb(134, 160, 72);
+    color: #ffffff;
+}
+#prevbtn{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+#nextbtn{
+    position: absolute;
+    top: 50%;
+   right: 13%;
+}
