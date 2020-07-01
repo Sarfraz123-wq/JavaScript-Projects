@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.container{
+    min-height: 50vh;
+}
+.btn{
+    padding: 7px 10px;
+    width: 100px;
+    margin-left: 10px;
+    background: none;
+}
+.countValue{
+    font-size: 60px;
+    display: block;
+    margin-bottom: 30px;
+}
