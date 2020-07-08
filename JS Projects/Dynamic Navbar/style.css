@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 204, 204);
+}
+#static-navbar{
+    background-color: rgb(118, 96, 247);
+    height: 70px;
+}
+.logo{
+    color: cyan;
+    font-size: 27px;
+    position: absolute;
+    top: 2.5%;
+    left: 6%;
+    font-weight: bold;
+}
+.logo:hover{
+    color: yellow;
+    cursor: pointer;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#static-navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#static-navbar ul li:nth-child(1){
+    margin-left: 300px;
+}
+#static-navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 21px;
+}
+#static-navbar ul li a:hover{
+    color: wheat;
+    cursor: pointer;
+    padding: 13px;
+}
+/* Mobile Navbar */
+#mobile-navbar{
+    padding: 10px;
+    font-size: 25px;
+    background: rgb(126, 120, 120)
+}
+#mobile-navbar li{
+    margin-top: 15px;
+    list-style-type: none;
+    display: block;
+    background: rgb(71, 57, 57);
+    width: 90%;
+    padding: 6px;
+}
+#mobile-navbar li a{
+    text-decoration: none;
+    color: white;
+
+}
+.fa{
+    position: absolute;
+    top: 2.8%;
+    right: 5%;
+}
+.icons{
+    display: none;
+}
+/* Dynamic navbar */
+#dynamic-navbar{
+    background-color: rgb(12, 211, 218);
+    height: 70px;
+}
+#dynamic-navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#dynamic-navbar ul li:nth-child(1){
+    margin-left: 300px;
+}
+#dynamic-navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 21px;
+}
+#dynamic-navbar ul li a:hover{
+    color: wheat;
+    cursor: pointer;
+    padding: 13px;
+}
+#dynamic-navbar{
+    display: none;
+    position: fixed;
+    width: 100%;
+}
+.dynamicLogo{
+    color: rgb(251, 255, 0);
+    font-size: 27px;
+    position: absolute;
+    top: 24%;
+    left: 6%;
+    font-weight: bold;
+}
+header p{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width:800px){
+    #static-navbar ul{
+        display: none;
+    }
+    #mobile-navbar{
+        display: none;
+    }
+    .icons{
+        display: block;
+    }
+    #dynamic-navbar{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media(min-width:800px){
+    #static-navbar ul{
+        display: block;
+    }
+    #mobile-navbar{
+        display: none;
+    }
+    .fa-bars{
+        display: none;
+    }
+
+}
