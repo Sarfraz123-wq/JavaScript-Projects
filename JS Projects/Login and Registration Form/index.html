@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="btn-group">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" id="login">LOG IN</button>
+                <button type="button" class="toggle-btn" id="register">REGISTER</button>
+            </div>
+            <div class="media-icons">
+            <!-- Add font awesome icons -->
+            <a href="#"> <i class="fa fa-facebook"></i> </a>
+            <a href="#"> <i class="fa fa-twitter"></i> </a>
+            <a href="#"> <i class="fa fa-instagram"></i> </a>
+            <a href="#"> <i class="fa fa-youtube"></i> </a>
+            </div>
+            <form id="form" class="form-group">
+                <input type="text" class="input-area" placeholder="UserName" required>
+                <input type="password" class="input-area" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">LOG IN</button>
+            </form>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="reg-form-container">
+            <div class="btn-group">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" id="login2">LOG IN</button>
+                <button type="button" class="toggle-btn" id="register2">REGISTER</button>
+            </div>
+            <div class="media-icons">
+            <!-- Add font awesome icons -->
+            <a href="#"> <i class="fa fa-facebook"></i> </a>
+            <a href="#"> <i class="fa fa-twitter"></i> </a>
+            <a href="#"> <i class="fa fa-instagram"></i> </a>
+            <a href="#"> <i class="fa fa-youtube"></i> </a>
+            </div>
+            <form id="form" class="form-group">
+                <input type="text" class="input-area" placeholder="UserName" required>
+                <input type="password" class="input-area" placeholder="Enter Password" required>
+                <input type="password" class="input-area" placeholder="Confirm Password" required>
+                <input type="email" class="input-area" placeholder="Your Email" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                
+               
+                 <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
