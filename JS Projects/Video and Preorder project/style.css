@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.video{
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    /* background: #000; */
+}
+.videoContainer::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7)
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    top: -350px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border: none;
+    position: relative;
+    top: -130px;
+    left: 100px;
+    z-index: 10;
+    outline: none;
+}
+.btn:hover{
+    background: rgb(88, 84, 87);
+    color: yellow;
+    cursor: pointer;
+}
+.imgGif{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.hidePreLoader{
+    z-index: -1;
+    visibility: hidden;
+}
