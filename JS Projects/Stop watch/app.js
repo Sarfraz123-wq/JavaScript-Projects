@@ -19,7 +19,7 @@ function startWatch () {
            sec.innerHTML = timesec;
            count=0;
        }
-       if(timesec==5){
+       if(timesec==60){
         timemints++;
         mints.innerHTML = timemints;
         timesec=0;
